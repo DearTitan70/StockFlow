@@ -1,14 +1,18 @@
 {
-  "name": "auth_service",
+  "name": "stockflow-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST para gestion de inventario, usuarios, movimientos y reportes de StockFlow",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "stockflow",
+    "inventario",
+    "api-rest"
+  ],
+  "author": "Camilo Vera",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
